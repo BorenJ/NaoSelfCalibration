@@ -1,5 +1,5 @@
 # Humanoid Self-Calibration Foot Force Sensors
-This project is intented to let humanoid robot self-calibrate their foot force sensors. It contains humanoid robot whole-body trajectory planning based on model-predict-control, and sensor calibration algorithm. (The current version contains humanoid whole-body motion planning code, the sensor calibration algorithm with be updated soon!)
+This project is intented to let humanoid robot self-calibrate their foot force sensors. It contains humanoid robot whole-body trajectory planning based on model-predict-control, and sensor calibration algorithm. (The current version contains humanoid whole-body motion planning code, the sensor calibration algorithm with be updated soon!) The motion planning and calibration algorithm are in MATLAB, the robot movement command is Python. 
 
 The robot model is in the foler `Function`. It contains the model parameters of Nao robot, kinematics method, and graphics visualization engine. 
 
@@ -38,3 +38,5 @@ load('$your_own_path/data/training/q_init_1.mat')
 ```
 And then you can run the code. 
 The different double support can be selected by changing chosed trainng or testing in `data`.
+
+After getting a joint angle trajectory (10 joint angles for each moment), one can simply input them to the robot using [Nao API](http://doc.aldebaran.com/2-8/dev/python/examples/motion/index.html). Please kindly follow the instruction on the website to control Nao movement.
