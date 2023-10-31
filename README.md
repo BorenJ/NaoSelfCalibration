@@ -1,6 +1,8 @@
 # Humanoid Self-Calibration Foot Force Sensors
 This project is intented to let humanoid robot self-calibrate their foot force sensors. It contains humanoid robot whole-body trajectory planning based on model-predict-control, and sensor calibration algorithm. (The current version contains humanoid whole-body motion planning code, the sensor calibration algorithm with be updated soon!)
 
+The robot model is in the foler `Function`. It contains the model parameters of Nao robot, kinematics method, and graphics visualization engine. 
+
 ## Authors
 Yuanfeng Han, Boren Jiang, Gregory Chirikjian
 - Repository maintainers: Boren Jiang
