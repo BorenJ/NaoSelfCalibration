@@ -39,4 +39,4 @@ load('$your_own_path/data/training/q_init_1.mat')
 And then you can run the code. 
 The different double support can be selected by changing chosed trainng or testing in `data`.
 
-After getting a joint angle trajectory (10 joint angles for each moment), one can simply input them to the robot using [Nao API](http://doc.aldebaran.com/2-8/naoqi/motion/almotion.html). Please kindly follow the instruction on the website to control Nao movement.
+After getting a joint angle trajectory (10 joint angles for each moment), one can simply input them to the robot using [Nao API](http://doc.aldebaran.com/2-8/naoqi/motion/almotion.html). Please kindly follow the instruction, expecially `Joint control` on the website to control Nao movement. 
